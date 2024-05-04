@@ -1,4 +1,4 @@
-@import "./responsive.scss";
+@import "../../responsive.scss";
 .layout{
     height: 100vh;
     max-width: 1366px;
@@ -10,15 +10,15 @@
     flex-direction: column;
 
     @include lg{
-        background-color: green;
+        // background-color: green;
         max-width: 1280px;
     }
     @include md{
-        background-color: peru;
+        // background-color: peru;
         max-width: 768px;
     }
     @include sm{
-        background-color: red;
+        // background-color: red;
         max-width: 640px;
     }
 
